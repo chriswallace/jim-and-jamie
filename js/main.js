@@ -23,8 +23,7 @@ jQuery(function( $ ){
 
 	var windowHeight = $(window).outerHeight();
 
-	$("#announcement").css('min-height',windowHeight-80);
-	$("#registry").css('min-height',windowHeight-80);
+	$("#registry").css('min-height',windowHeight);
 
 	// Cache selectors
 	var lastId,

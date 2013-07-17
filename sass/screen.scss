@@ -18,6 +18,7 @@ body{
 p,ol,ul{
 	font-size: $baseFontSize;
 	line-height: $baseLineHeight;
+	margin: 0 0 $baseLineHeight 0;
 }
 
 .container{
@@ -172,7 +173,7 @@ h2{
 		display: block;
 		padding: 14px 0;
 		width: 100%;
-		background-color: darken($tertiaryColor,15%);
+		background-color: $primaryColor;
 		margin-bottom: 10px;
 		font-size: 20px;
 		color: #fff;
@@ -183,26 +184,31 @@ h2{
 
 #story{
 	text-align: center;
-	background: $quaternaryColor image-url("jim.jamie.yellow.png") no-repeat center -1px;
+	background: $quinaryColor image-url("jim_jamie_story_bg.jpg") no-repeat center -1px;
 	background-size: 100% auto;
 
 	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	only screen and (-o-min-device-pixel-ratio: 3/2),
 	only screen and (min-device-pixel-ratio: 1.5) {
 		background-size: 100% auto;
-        background-image: image-url("jim.jamie.yellow@2x.png");
+        background-image: image-url("jim_jamie_story_bg@2x.jpg");
     }
 
     .flourish{
-    	margin: 0 auto;
+    	margin: 0 auto 40px;
     }
 
     h2{
     	color: $secondaryColor;
+    	margin-bottom: .25em;
     }
 
     p{
     	text-align: left;
+    }
+
+    .storytext{
+    	@include column-count(2);
     }
 
 }
@@ -234,6 +240,15 @@ h2{
 
 	h2{
 		color: $primaryColor;
+		margin-bottom: .25em;
+	}
+
+	.flourish{
+		margin-bottom: 40px;
+	}
+
+	img{
+		margin-bottom: $baseLineHeight;
 	}
 
 	p{
@@ -246,7 +261,8 @@ h2{
 	padding: 80px 0 0;
 
 	h2{
-		margin: .25em 0;
+		margin: 0 0 .25em;
+		color: $secondaryColor;
 	}
 
 	p{
