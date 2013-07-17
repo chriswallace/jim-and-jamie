@@ -1,0 +1,98 @@
+/**
+ * Gridpak Beta SCSS 
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+/* Reusable column setup */
+/* line 21, ../sass/gridpak.scss */
+.col {
+  border: 0px solid rgba(0, 0, 0, 0);
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+}
+
+/* 1. 6 Column Grid 0px - Infinity 
+----------------------------------------------------------------------------- 
+
+Span 1:    15.0%
+Span 2:    32.0%
+Span 3:    49.0%
+Span 4:    66.0%
+Span 5:    83.0%
+Span 6:    100%
+
+----------------------------------------------------------------------------- */
+@media screen and (min-width: 0px) {
+  /* line 52, ../sass/gridpak.scss */
+  .col {
+    margin-left: 2%;
+    padding: 0 1.5%;
+  }
+
+  /* --- Gridpak variables ---*/
+  /* line 65, ../sass/gridpak.scss */
+  .row .col:first-child {
+    margin-left: 0;
+  }
+
+  /*
+  Add your semantic classnames in alongside their corresponding spans here. e.g.
+  
+  .span_3,
+  .my_semantic_class_name {
+      ...
+  }
+  
+  */
+  /* line 79, ../sass/gridpak.scss */
+  .span_1 {
+    width: 15%;
+    border-left-width: 0;
+    padding: 0 1.5%;
+    margin-left: 2%;
+  }
+
+  /* line 82, ../sass/gridpak.scss */
+  .span_2 {
+    width: 32%;
+    border-left-width: 0;
+    padding: 0 1.5%;
+    margin-left: 2%;
+  }
+
+  /* line 85, ../sass/gridpak.scss */
+  .span_3 {
+    width: 49%;
+    border-left-width: 0;
+    padding: 0 1.5%;
+    margin-left: 2%;
+  }
+
+  /* line 88, ../sass/gridpak.scss */
+  .span_4 {
+    width: 66%;
+    border-left-width: 0;
+    padding: 0 1.5%;
+    margin-left: 2%;
+  }
+
+  /* line 91, ../sass/gridpak.scss */
+  .span_5 {
+    width: 83%;
+    border-left-width: 0;
+    padding: 0 1.5%;
+    margin-left: 2%;
+  }
+
+  /* line 94, ../sass/gridpak.scss */
+  .span_6 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
