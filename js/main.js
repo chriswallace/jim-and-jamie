@@ -1,4 +1,31 @@
 jQuery(function( $ ){
+
+	$(document).ready(function(e){
+
+		var map,
+			myLatlng = new google.maps.LatLng(39.691457, -89.761232);
+
+		function initialize() {
+			var mapOptions = {
+				zoom: 8,
+				center: myLatlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			map = new google.maps.Map(document.getElementById('map-canvas'),
+			  mapOptions);
+
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title: 'Hello World!'
+			});
+
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+	});
+
 	// Scroll initially if there's a hash (#something) in the url
 	$.localScroll.hash({
 		queue:true,

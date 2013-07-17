@@ -548,7 +548,7 @@ h2 {
 #announcement h4:before {
   content: "";
   position: absolute;
-  background-image: url('/images/gray-banner-left.png?1374084944');
+  background-image: url('/images/gray-banner-left.png?1374090148');
   left: -21px;
   bottom: -4px;
   height: 24px;
@@ -558,14 +558,14 @@ h2 {
   /* line 113, ../sass/screen.scss */
   #announcement h4:before {
     background-size: 29px 24px;
-    background-image: url('/images/gray-banner-left@2x.png?1374084944');
+    background-image: url('/images/gray-banner-left@2x.png?1374090148');
   }
 }
 /* line 130, ../sass/screen.scss */
 #announcement h4:after {
   content: "";
   position: absolute;
-  background-image: url('/images/gray-banner-right.png?1374084944');
+  background-image: url('/images/gray-banner-right.png?1374090148');
   right: -21px;
   bottom: -4px;
   height: 24px;
@@ -575,7 +575,7 @@ h2 {
   /* line 130, ../sass/screen.scss */
   #announcement h4:after {
     background-size: 29px 24px;
-    background-image: url('/images/gray-banner-right@2x.png?1374084944');
+    background-image: url('/images/gray-banner-right@2x.png?1374090148');
   }
 }
 /* line 148, ../sass/screen.scss */
@@ -622,14 +622,14 @@ h2 {
 /* line 185, ../sass/screen.scss */
 #story {
   text-align: center;
-  background: white url('/images/jim_jamie_story_bg.jpg?1374084944') no-repeat center -1px;
+  background: white url('/images/jim_jamie_story_bg.jpg?1374090148') no-repeat center -1px;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 185, ../sass/screen.scss */
   #story {
     background-size: 100% auto;
-    background-image: url('/images/jim_jamie_story_bg@2x.jpg?1374084944');
+    background-image: url('/images/jim_jamie_story_bg@2x.jpg?1374090148');
   }
 }
 /* line 197, ../sass/screen.scss */
@@ -681,48 +681,61 @@ h2 {
   text-align: center;
 }
 /* line 241, ../sass/screen.scss */
+#ceremony #map-holder {
+  position: relative;
+  width: 100%;
+  padding-top: 62.5%;
+  margin-bottom: 27px;
+}
+/* line 248, ../sass/screen.scss */
+#ceremony #map-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 258, ../sass/screen.scss */
 #ceremony h2 {
   color: #fe916b;
   margin-bottom: .25em;
 }
-/* line 246, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 #ceremony .flourish {
   margin-bottom: 40px;
 }
-/* line 250, ../sass/screen.scss */
-#ceremony img {
-  margin-bottom: 27px;
-}
-/* line 254, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 #ceremony p {
   text-align: left;
 }
 
-/* line 259, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 #registry {
   background: #fcfce6;
   padding: 80px 0 0;
 }
-/* line 263, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 #registry h2 {
   margin: 0 0 .25em;
   color: #89c93d;
 }
-/* line 268, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #registry p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
-/* line 273, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 #registry .flourish {
   margin: 20px 0 30px;
 }
-/* line 277, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 #registry .row {
   text-align: center;
   overflow: auto;
 }
-/* line 282, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 #registry #gifts {
   clear: both;
   padding-top: 30px;
