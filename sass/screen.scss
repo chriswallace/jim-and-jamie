@@ -113,7 +113,7 @@ h2{
 		&:before{
 			content: "";
 			position: absolute;
-			background-image: image-url("gray-banner-left.png");
+			background-image: url("images/gray-banner-left.png");
 			left: -21px;
 			bottom: -4px;
 			height: 24px;
@@ -123,14 +123,14 @@ h2{
 			only screen and (-o-min-device-pixel-ratio: 3/2),
 			only screen and (min-device-pixel-ratio: 1.5) {
 				background-size: 29px 24px;
-		        background-image: image-url("gray-banner-left@2x.png");
+		        background-image: url("images/gray-banner-left@2x.png");
 		    }
 		}
 
 		&:after{
 			content: "";
 			position: absolute;
-			background-image: image-url("gray-banner-right.png");
+			background-image: url("images/gray-banner-right.png");
 			right: -21px;
 			bottom: -4px;
 			height: 24px;
@@ -140,7 +140,7 @@ h2{
 			only screen and (-o-min-device-pixel-ratio: 3/2),
 			only screen and (min-device-pixel-ratio: 1.5) {
 				background-size: 29px 24px;
-		        background-image: image-url("gray-banner-right@2x.png");
+		        background-image: url("images/gray-banner-right@2x.png");
 		    }
 		}
 	}
@@ -184,14 +184,14 @@ h2{
 
 #story{
 	text-align: center;
-	background: $quinaryColor image-url("jim_jamie_story_bg.jpg") no-repeat center -1px;
+	background: $quinaryColor url("images/jim_jamie_story_bg.jpg") no-repeat center -1px;
 	background-size: 100% auto;
 
 	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	only screen and (-o-min-device-pixel-ratio: 3/2),
 	only screen and (min-device-pixel-ratio: 1.5) {
 		background-size: 100% auto;
-        background-image: image-url("jim_jamie_story_bg@2x.jpg");
+        background-image: url("images/jim_jamie_story_bg@2x.jpg");
     }
 
     .flourish{

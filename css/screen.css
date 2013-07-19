@@ -548,7 +548,7 @@ h2 {
 #announcement h4:before {
   content: "";
   position: absolute;
-  background-image: url('/images/gray-banner-left.png?1374090148');
+  background-image: url("images/gray-banner-left.png");
   left: -21px;
   bottom: -4px;
   height: 24px;
@@ -558,14 +558,14 @@ h2 {
   /* line 113, ../sass/screen.scss */
   #announcement h4:before {
     background-size: 29px 24px;
-    background-image: url('/images/gray-banner-left@2x.png?1374090148');
+    background-image: url("images/gray-banner-left@2x.png");
   }
 }
 /* line 130, ../sass/screen.scss */
 #announcement h4:after {
   content: "";
   position: absolute;
-  background-image: url('/images/gray-banner-right.png?1374090148');
+  background-image: url("images/gray-banner-right.png");
   right: -21px;
   bottom: -4px;
   height: 24px;
@@ -575,7 +575,7 @@ h2 {
   /* line 130, ../sass/screen.scss */
   #announcement h4:after {
     background-size: 29px 24px;
-    background-image: url('/images/gray-banner-right@2x.png?1374090148');
+    background-image: url("images/gray-banner-right@2x.png");
   }
 }
 /* line 148, ../sass/screen.scss */
@@ -622,14 +622,14 @@ h2 {
 /* line 185, ../sass/screen.scss */
 #story {
   text-align: center;
-  background: white url('/images/jim_jamie_story_bg.jpg?1374090148') no-repeat center -1px;
+  background: white url("images/jim_jamie_story_bg.jpg") no-repeat center -1px;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 185, ../sass/screen.scss */
   #story {
     background-size: 100% auto;
-    background-image: url('/images/jim_jamie_story_bg@2x.jpg?1374090148');
+    background-image: url("images/jim_jamie_story_bg@2x.jpg");
   }
 }
 /* line 197, ../sass/screen.scss */
