@@ -18,8 +18,11 @@
     background-clip:padding-box !important;
 }
 
-.col {
-   @include col;
+@media screen and (max-width: 640px) {
+    .col{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
 
 @mixin span($num, $gutter_pc, $gutter_px, $padding, $max_columns) {
@@ -47,9 +50,10 @@
 
     ----------------------------------------------------------------------------- */
 
-	@media screen and (min-width: 0px) {
+	@media screen and (min-width: 641px) {
 
         .col {
+           @include col;
             margin-left:2%;
             padding:0 1.5%;
         }

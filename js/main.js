@@ -50,7 +50,8 @@ jQuery(function( $ ){
 
 	var windowHeight = $(window).outerHeight();
 
-	$("#registry").css('min-height',windowHeight);
+	if( $(window).width() > 768 )
+		$("#announcement,#registry,#information").css('min-height',windowHeight);
 
 	// Cache selectors
 	var lastId,

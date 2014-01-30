@@ -3,6 +3,14 @@
 @import "grid";
 @import "variables";
 
+*{
+	&,
+	&:before,
+	&:after{
+		@include box-sizing(border-box);
+	}
+}
+
 html,
 body{
 	padding: 0;
@@ -36,10 +44,13 @@ img{
 	height: auto;
 }
 
+h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+}
+
 h2{
 	font-size: 3em;
 	font-weight: normal;
-	margin-top: 0;
 }
 
 #masthead{
@@ -53,6 +64,10 @@ h2{
 	font-family: $secondaryFont;
 	line-height: 1em;
 	@include box-shadow(0 0 0 2px rgba(0,0,0,.05));
+
+	@media screen and (max-width: 768px){
+		display: none;
+	}
 
 	ul,li{
 		margin: 0;
@@ -76,10 +91,9 @@ h2{
 
 	a{
 		display: block;
-		padding: 18px 24px;
+		padding: 1.5em 1em;
 		text-decoration: none;
-		font-size: 12px;
-		font-weight: bold;
+		font-size: .7em;
 		color: $secondaryColor;
 		text-transform: uppercase;
 		position: relative;
@@ -96,7 +110,20 @@ h2{
 
 #announcement{
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 60px;
+	position: relative;
+
+	@media screen and (min-width: 768px){
+		padding-top: 100px;
+
+		.container{
+			@include transform(translate(-50%,-50%));
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			max-width: 50%;
+		}
+	}
 
 	h4{
 		display: inline-block;
@@ -146,11 +173,16 @@ h2{
 	}
 
 	h1{
-		font-size: 6em;
+		font-size: 2.4em;
 		padding: 0;
-		margin: 0;
+		margin: 0 0 .25em;
 		color: $secondaryColor;
 		font-weight: normal;
+
+		@media screen and (min-width: 768px){
+			font-size: 6em;
+			margin-bottom: .25em;
+		}
 
 		span{
 			color: $primaryColor;
@@ -158,11 +190,15 @@ h2{
 	}
 
 	h2{
-		font-size: 20px;
+		font-size: 1em;
 		margin-bottom: 2em;
 		color: $secondaryColor;
 		font-style: italic;
 		font-weight: normal;
+
+		@media screen and (min-width: 768px){
+			font-size: 1.6em;
+		}
 	}
 
 	.info{
@@ -170,15 +206,110 @@ h2{
 	}
 
 	.btn{
-		display: block;
-		padding: 14px 0;
-		width: 100%;
+		display: inline-block;
+		padding: .75em 1.5em;
 		background-color: $primaryColor;
 		margin-bottom: 10px;
-		font-size: 20px;
+		font-size: 1.2em;
 		color: #fff;
 		text-decoration: none;
 		@include border-radius(4px);
+	}
+}
+
+#information{
+	background-image: url("../images/location.jpg");
+	background-size: cover;
+	position: relative;
+	padding: 0;
+	text-align: center;
+
+	p{
+		color: white;
+		font-size: 1.2em;
+		@include text-shadow(0 0 8px rgba(0,0,0,0.5));
+		padding: 2em;
+
+		@media screen and (min-width: 768px){
+			font-size: 1.6em;
+			padding: 0;
+			@include transform(translate(-50%,-50%));
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			max-width: 50%;
+		}
+	}
+}
+
+#rsvp{
+	background-color: $secondaryColor;
+	text-align: center;
+	padding: 20px;
+
+	@media screen and (min-width: 420px){
+		padding: 60px 20px;
+	}
+
+	@media screen and (min-width: 768px){
+		padding: 100px 20px;
+	}
+
+	.rsvp-form{
+		margin: 0;
+		padding: 20px;
+		background-color: white;
+		display: inline-block;
+		border: 1px solid #eee;
+		@include box-shadow(0 2px 3px rgba(#555,.3));
+
+		@media screen and (min-width: 758px){
+			padding: 40px;
+		}
+
+		form{
+			border: 1px solid $primaryColor;
+			padding: 20px;
+
+			@media screen and (min-width: 758px){
+				padding: 40px;
+			}
+		}
+
+		.ss-form-question,
+		.ss-q-title{
+			margin-bottom: .75em;
+		}
+
+		input,
+		select{
+			font-size: 1.2em;
+			padding: .2em;
+			border: none;
+			@include border-radius(4px);
+			width: 100%;
+		}
+
+		input[type="text"],
+		select{
+			background-color: #f2f2f2;
+		}
+
+		input[type="submit"]{
+			background-color: $primaryColor;
+			padding: .7em 2em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: .85em;
+			color: white;
+			font-family: $secondaryFont;
+			width: 100%;
+		}
+	}
+
+	iframe{
+		border: 25px solid $tertiaryColor;
+		margin: 0 auto;
 	}
 }
 
@@ -234,7 +365,7 @@ h2{
 
 }
 
-#ceremony{
+#directions{
 	background: $quaternaryColor;
 	text-align: center;
 
