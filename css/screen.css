@@ -1,5 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:700");
-/* line 45, ../sass/_normalize.scss */
+/* line 55, ../sass/_normalize.scss */
 article,
 aside,
 details,
@@ -14,7 +14,7 @@ summary {
   display: block;
 }
 
-/* line 61, ../sass/_normalize.scss */
+/* line 63, ../sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -43,7 +43,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 106, ../sass/_normalize.scss */
+/* line 110, ../sass/_normalize.scss */
 html,
 button,
 input,
@@ -61,7 +61,7 @@ body {
 a:focus {
   outline: thin dotted;
 }
-/* line 138, ../sass/_normalize.scss */
+/* line 139, ../sass/_normalize.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -107,7 +107,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 191, ../sass/_normalize.scss */
+/* line 192, ../sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -129,13 +129,13 @@ mark {
   color: #000;
 }
 
-/* line 217, ../sass/_normalize.scss */
+/* line 218, ../sass/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
 }
 
-/* line 226, ../sass/_normalize.scss */
+/* line 229, ../sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -162,7 +162,7 @@ q {
   quotes: none;
 }
 
-/* line 262, ../sass/_normalize.scss */
+/* line 263, ../sass/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -174,7 +174,7 @@ small {
   font-size: 80%;
 }
 
-/* line 277, ../sass/_normalize.scss */
+/* line 278, ../sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -193,7 +193,7 @@ sub {
   bottom: -0.25em;
 }
 
-/* line 299, ../sass/_normalize.scss */
+/* line 302, ../sass/_normalize.scss */
 dl,
 menu,
 ol,
@@ -206,14 +206,14 @@ dd {
   margin: 0 0 0 40px;
 }
 
-/* line 315, ../sass/_normalize.scss */
+/* line 317, ../sass/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-/* line 325, ../sass/_normalize.scss */
+/* line 326, ../sass/_normalize.scss */
 nav ul,
 nav ol {
   list-style-image: none;
@@ -255,7 +255,7 @@ legend {
   *margin-left: -7px;
 }
 
-/* line 402, ../sass/_normalize.scss */
+/* line 405, ../sass/_normalize.scss */
 button,
 input,
 select,
@@ -267,19 +267,19 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 417, ../sass/_normalize.scss */
+/* line 418, ../sass/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 427, ../sass/_normalize.scss */
+/* line 428, ../sass/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 440, ../sass/_normalize.scss */
+/* line 443, ../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -289,13 +289,13 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 453, ../sass/_normalize.scss */
+/* line 454, ../sass/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 463, ../sass/_normalize.scss */
+/* line 464, ../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -312,7 +312,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 486, ../sass/_normalize.scss */
+/* line 487, ../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -428,14 +428,14 @@ table {
     width: 100%;
   }
 }
-/* line 7, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 html,
 body {
   padding: 0;
@@ -529,7 +529,7 @@ h2 {
 /* line 92, ../sass/screen.scss */
 #masthead a {
   display: block;
-  padding: 1.5em 1em;
+  padding: 2em 1em;
   text-decoration: none;
   font-size: .7em;
   color: #2f3850;
@@ -747,12 +747,12 @@ h2 {
     padding: 40px;
   }
 }
-/* line 279, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 #rsvp .rsvp-form .ss-form-question,
 #rsvp .rsvp-form .ss-q-title {
   margin-bottom: .75em;
 }
-/* line 284, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 #rsvp .rsvp-form input,
 #rsvp .rsvp-form select {
   font-size: 1.2em;
@@ -765,7 +765,7 @@ h2 {
   border-radius: 4px;
   width: 100%;
 }
-/* line 293, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 #rsvp .rsvp-form input[type="text"],
 #rsvp .rsvp-form select {
   background-color: #f2f2f2;
