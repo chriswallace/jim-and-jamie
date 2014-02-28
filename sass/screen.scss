@@ -21,11 +21,11 @@ body{
 
 body{
 	background: $quaternaryColor;
+	line-height: $baseLineHeight;
 }
 
 p,ol,ul{
 	font-size: $baseFontSize;
-	line-height: $baseLineHeight;
 	margin: 0 0 $baseLineHeight 0;
 }
 
@@ -313,6 +313,19 @@ h2{
 	}
 }
 
+#accomodations{
+	background: $secondaryColor;
+	position: relative;
+	padding: 60px 0;
+	text-align: center;
+	color: white;
+
+	img{
+		border: 10px solid white;
+		margin-bottom: 1em;
+	}
+}
+
 #story{
 	text-align: center;
 	background: $quinaryColor url("../images/jim_jamie_story_bg.jpg") no-repeat center -1px;
@@ -347,6 +360,7 @@ h2{
 #party{
 	background: $primaryColor;
 	text-align: center;
+	color: white;
 
     h2{
     	color: $quaternaryColor;
@@ -373,7 +387,7 @@ h2{
 		position: relative;
 		width: 100%;
 		padding-top: 62.5%;
-		margin-bottom: $baseLineHeight;
+		margin-bottom: 2em;
 	}
 
 	#map-canvas{
@@ -412,6 +426,8 @@ h2{
 	p{
 		font-family: $secondaryFont;
 		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: 2em;
 	}
 
 	.flourish{

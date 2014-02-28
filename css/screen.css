@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:700");
+@import url("http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:400,700");
 /* line 45, ../sass/_normalize.scss */
 article,
 aside,
@@ -447,12 +447,12 @@ body {
 /* line 22, ../sass/screen.scss */
 body {
   background: white;
+  line-height: 1.5;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 p, ol, ul {
   font-size: 110%;
-  line-height: 1.5;
   margin: 0 0 1.5 0;
 }
 
@@ -788,32 +788,46 @@ h2 {
 }
 
 /* line 316, ../sass/screen.scss */
+#accomodations {
+  background: #2f3850;
+  position: relative;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+/* line 323, ../sass/screen.scss */
+#accomodations img {
+  border: 10px solid white;
+  margin-bottom: 1em;
+}
+
+/* line 329, ../sass/screen.scss */
 #story {
   text-align: center;
   background: #9b69b8 url("../images/jim_jamie_story_bg.jpg") no-repeat center -1px;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 316, ../sass/screen.scss */
+  /* line 329, ../sass/screen.scss */
   #story {
     background-size: 100% auto;
     background-image: url("../images/jim_jamie_story_bg@2x.jpg");
   }
 }
-/* line 328, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 #story .flourish {
   margin: 0 auto 40px;
 }
-/* line 332, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 #story h2 {
   color: #2f3850;
   margin-bottom: .25em;
 }
-/* line 337, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 #story p {
   text-align: left;
 }
-/* line 341, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 #story .storytext {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -822,40 +836,41 @@ h2 {
   column-count: 2;
 }
 
-/* line 347, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 #party {
   background: #f94893;
   text-align: center;
+  color: white;
 }
-/* line 351, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 #party h2 {
   color: white;
 }
-/* line 355, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 #party h3 {
   margin-top: 0;
   margin-bottom: 2em;
   font-weight: normal;
 }
-/* line 361, ../sass/screen.scss */
+/* line 375, ../sass/screen.scss */
 #party .span_2 img {
   border: 10px solid #fff;
   margin-bottom: 10px;
 }
 
-/* line 368, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 #directions {
   background: white;
   text-align: center;
 }
-/* line 372, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 #directions #map-holder {
   position: relative;
   width: 100%;
   padding-top: 62.5%;
-  margin-bottom: 1.5;
+  margin-bottom: 2em;
 }
-/* line 379, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 #directions #map-canvas {
   position: absolute;
   top: 0;
@@ -865,45 +880,47 @@ h2 {
   width: 100%;
   height: 100%;
 }
-/* line 389, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 #directions h2 {
   color: #f94893;
   margin-bottom: .25em;
 }
-/* line 394, ../sass/screen.scss */
+/* line 408, ../sass/screen.scss */
 #directions .flourish {
   margin-bottom: 40px;
 }
-/* line 398, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 #directions p {
   text-align: left;
 }
 
-/* line 403, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 #registry {
   background: white;
   padding: 80px 0 0;
 }
-/* line 407, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 #registry h2 {
   margin: 0 0 .25em;
   color: #2f3850;
 }
-/* line 412, ../sass/screen.scss */
+/* line 426, ../sass/screen.scss */
 #registry p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 2em;
 }
-/* line 417, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 #registry .flourish {
   margin: 20px 0 30px;
 }
-/* line 421, ../sass/screen.scss */
+/* line 437, ../sass/screen.scss */
 #registry .row {
   text-align: center;
   overflow: auto;
 }
-/* line 426, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
 #registry #gifts {
   clear: both;
   padding-top: 30px;
