@@ -221,24 +221,40 @@ h2{
 	background-image: url("../images/location.jpg");
 	background-size: cover;
 	position: relative;
-	padding: 0;
+	padding: 60px 0;
 	text-align: center;
 
-	p{
+	img{
+		max-height: 230px;
+		margin-right: 10px;
+		display: inline-block;
+		@include border-radius(4px);
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	.images{
+		text-align: center;
+	}
+
+	.content{
 		color: white;
 		font-size: 1.2em;
 		@include text-shadow(0 0 8px rgba(0,0,0,0.5));
-		padding: 2em;
 
 		@media screen and (min-width: 768px){
 			font-size: 1.6em;
-			padding: 0;
-			@include transform(translate(-50%,-50%));
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			max-width: 50%;
 		}
+	}
+}
+
+#photos{
+	background-color: $tertiaryColor;
+
+	img{
+		@include border-radius(15px);
 	}
 }
 
@@ -282,6 +298,7 @@ h2{
 		}
 
 		input,
+		textarea,
 		select{
 			font-size: 1.2em;
 			padding: .2em;
@@ -291,8 +308,13 @@ h2{
 		}
 
 		input[type="text"],
+		textarea,
 		select{
 			background-color: #f2f2f2;
+		}
+
+		textarea{
+			height: 3em;
 		}
 
 		input[type="submit"]{

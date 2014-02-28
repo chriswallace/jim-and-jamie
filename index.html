@@ -13,6 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/screen.css">
+        <link rel="stylesheet" href="js/vendor/flexslider/flexslider.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -25,6 +26,7 @@
                 <ul id="nav">
                     <li><a href="#announcement"><img src="images/rings-logo.png" alt="Home"></a></li>
                     <li><a href="#information">Info</a></li>
+                    <li><a href="#photos">Photos</a></li>
                     <li><a href="#rsvp">RSVP</a></li>
                     <li><a href="#party">Wedding Party</a></li>
                     <li><a href="#directions">Directions</a></li>
@@ -64,7 +66,69 @@
 
         <section id="information">
 
-            <p>Jim and Jamie are getting married at Jamie's Grandma's house in Chatham, Illinois. The wedding and reception will take place outdoors, so please dress accordingly and choose footwear that plays well with grass and gravel.</p>
+            <div class="images">
+                <img src="images/lake/IMG_1028.jpg" alt="">
+                <img src="images/lake/IMG_8724.jpg" alt="">
+                <img src="images/lake/IMG_8729.jpg" alt="">
+            </div>
+
+            <div class="row content">
+
+                <div class="col span_6">
+
+                    <p>Hello, friends and family!</p>
+
+                    <p>I just wanted to give you a little information about our wedding festivities before the big day. We have chosen to get married in Chatham, Illinois, at my grandmother’s house. She and my grandpa owned a fee fishing business, Leisure Lakes, until September of 2013, when grandma finally retired at the age of 84.</p>
+
+                    <p>Grandma’s house and the lakes have always been special to me and I am looking forward to getting to spend our wedding day with everyone we love in a place that we love.</p>
+
+                    <p>We are keeping our fingers crossed that the ceremony and reception will be outdoors, so please dress comfortably and choose footwear that plays well with grass and gravel.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="photos">
+
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="images/gallery/IMG_033.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_0164.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_0261.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_0777.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_0837.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_1667.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_7640.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_7659.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_7986.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_9141.jpg" />
+                </li>
+                <li>
+                  <img src="images/gallery/IMG_9234.jpg" />
+                </li>
+              </ul>
+            </div>
 
         </section>
 
@@ -118,6 +182,23 @@
                         </div>
                     </div>
 
+                    <div class="ss-form-question errorbox-good" role="listitem">
+                        <div dir="ltr" class="ss-item jfk-scrollbar ss-scrollable  ss-text">
+                            <div class="ss-form-entry">
+                                <label class="ss-q-item-label" for="entry_842030726">
+                                    <div class="ss-q-title">Songs that will get you on the dance floor</div>
+                                    <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                </label>
+
+                                <textarea name="entry.842030726" value="" class="ss-q-short" id="entry_842030726" dir="auto" aria-label="Songs that will get you on the dance floor" title=""></textarea>
+
+                                <div class="error-message"></div>
+                                <div class="required-message">This is a required question</div>
+
+                            </div>
+                        </div>
+                    </div>
+
                     <input type="hidden" name="draftResponse" value="[,,&quot;-6232728934623270003&quot;]
                     ">
                     <input type="hidden" name="pageHistory" value="0">
@@ -154,6 +235,8 @@
                         <img src="images/party/julie.jpg">
                         <h3>Julie O'Connell Roberts</h3>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col span_2">
                         <img src="images/party/emily.jpg">
                         <h3>Emily Weaver</h3>
@@ -161,6 +244,10 @@
                     <div class="col span_2">
                         <img src="images/party/andy.jpg">
                         <h3>Andy Sturm</h3>
+                    </div>
+                    <div class="col span_2">
+                        <img src="images/party/chris.jpg">
+                        <h3>Chris Funken</h3>
                     </div>
                 </div>
 
@@ -203,7 +290,9 @@
                     <div class="col span_12">
                         <h2>Accomodations</h2>
 
-                        <p>To reserve a room, please call and let them know you are with the wedding.</p>
+                        <p><strong>Option 1:</strong> Everyone is welcome to pack a tent and camp at Grandma's, there is plenty of room for everyone! If you plan on camping, just let Jim or Jamie know and plan on having your tent set up by 2:00 on Saturday, June 14.</p>
+
+                        <p><strong>Option 2:</strong> We have reserved a block of double queen rooms booked under Wallace/Klaverkamp Wedding for $125/night for both Friday, June 13 and Saturday, June 14. The number of rooms are limited and they will be held at that rate until May 13. Please contact the hotel to reserve a room:</p>
 
                         <img src="images/hotel.jpg" alt="">
 
@@ -234,7 +323,7 @@
                         <a href="http://www.target.com/GiftRegistrySearchViewCmd?registryType=WD&jsRequest=true&catalogId=10051&status=completePage&cumulativeTime=-1&listId=2eCTaTlNNsGEFtI0nhZunw&noOfPings=&registryFirstName=Jamie&langId=-1&segmentGrpName=-1&storeId=10151&registryLastName=Wallace"><img src="images/target-logo.png"></a>
                     </div>
                     <div class="col span_3">
-                        <a href="hhttp://www.amazon.com/gp/registry/wedding/17SMIGI8SBV99"><img src="images/amazon-logo.png"></a>
+                        <a href="http://www.amazon.com/gp/registry/wedding/17SMIGI8SBV99"><img src="images/amazon-logo.png"></a>
                     </div>
                 </div>
 
@@ -242,8 +331,8 @@
                     <div class="col span_6">
                         <h4>Gifts May Be Mailed to</h4>
                         <address>Jim &amp; Jamie<br>
-                            2808 January Ave<br>
-                            Saint Louis, MO 63139-1636
+                            5447 Odell St.<br>
+                            St. Louis, MO 63139
                         </address>
 
                     </div>
@@ -259,7 +348,23 @@
         <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/jquery.localscroll-1.2.7-min.js"></script>
         <script src="js/jquery-scrollspy.js"></script>
+        <script src="js/vendor/flexslider/jquery.flexslider.js"></script>
         <script src="js/main.js"></script>
+
+<script>
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    smoothHeight: true,
+    controlNav: false,
+    directionNav: true,
+    slideshowSpeed: 5000,
+    slideshow: false,
+    easing: "easeInOutExpo"
+  });
+});
+</script>
 
     </body>
 </html>
