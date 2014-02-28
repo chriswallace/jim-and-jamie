@@ -518,7 +518,7 @@ h2 {
 }
 /* line 81, ../sass/screen.scss */
 #masthead li.selected a {
-  color: #f94893;
+  color: #d93c37;
 }
 /* line 86, ../sass/screen.scss */
 #masthead img {
@@ -532,7 +532,7 @@ h2 {
   padding: 2em 1em;
   text-decoration: none;
   font-size: .7em;
-  color: #2f3850;
+  color: #634137;
   text-transform: uppercase;
   position: relative;
 }
@@ -575,10 +575,10 @@ h2 {
   padding: 4px 16px;
   font-size: 12px;
   text-transform: uppercase;
-  background-color: #cecece;
+  background-color: #9c8539;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  color: #2f3850;
+  color: #634137;
   position: relative;
   overflow: visible;
 }
@@ -621,7 +621,7 @@ h2 {
   font-size: 2.4em;
   padding: 0;
   margin: 0 0 .25em;
-  color: #2f3850;
+  color: #634137;
   font-weight: normal;
 }
 @media screen and (min-width: 768px) {
@@ -633,13 +633,13 @@ h2 {
 }
 /* line 187, ../sass/screen.scss */
 #announcement h1 span {
-  color: #f94893;
+  color: #d93c37;
 }
 /* line 192, ../sass/screen.scss */
 #announcement h2 {
   font-size: 1em;
   margin-bottom: 2em;
-  color: #2f3850;
+  color: #634137;
   font-style: italic;
   font-weight: normal;
 }
@@ -657,7 +657,7 @@ h2 {
 #announcement .btn {
   display: inline-block;
   padding: .75em 1.5em;
-  background-color: #f94893;
+  background-color: #d93c37;
   margin-bottom: 10px;
   font-size: 1.2em;
   color: #fff;
@@ -703,7 +703,7 @@ h2 {
 
 /* line 245, ../sass/screen.scss */
 #rsvp {
-  background-color: #2f3850;
+  background-color: #634137;
   text-align: center;
   padding: 20px;
 }
@@ -738,7 +738,7 @@ h2 {
 }
 /* line 270, ../sass/screen.scss */
 #rsvp .rsvp-form form {
-  border: 1px solid #f94893;
+  border: 1px solid #d93c37;
   padding: 20px;
 }
 @media screen and (min-width: 758px) {
@@ -772,7 +772,7 @@ h2 {
 }
 /* line 298, ../sass/screen.scss */
 #rsvp .rsvp-form input[type="submit"] {
-  background-color: #f94893;
+  background-color: #d93c37;
   padding: .7em 2em;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -783,13 +783,13 @@ h2 {
 }
 /* line 310, ../sass/screen.scss */
 #rsvp iframe {
-  border: 25px solid #cecece;
+  border: 25px solid #9c8539;
   margin: 0 auto;
 }
 
 /* line 316, ../sass/screen.scss */
 #accomodations {
-  background: #2f3850;
+  background: #634137;
   position: relative;
   padding: 60px 0;
   text-align: center;
@@ -804,7 +804,7 @@ h2 {
 /* line 329, ../sass/screen.scss */
 #story {
   text-align: center;
-  background: #9b69b8 url("../images/jim_jamie_story_bg.jpg") no-repeat center -1px;
+  background: #56572d url("../images/jim_jamie_story_bg.jpg") no-repeat center -1px;
   background-size: 100% auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
@@ -820,7 +820,7 @@ h2 {
 }
 /* line 345, ../sass/screen.scss */
 #story h2 {
-  color: #2f3850;
+  color: #634137;
   margin-bottom: .25em;
 }
 /* line 350, ../sass/screen.scss */
@@ -838,7 +838,7 @@ h2 {
 
 /* line 360, ../sass/screen.scss */
 #party {
-  background: #f94893;
+  background: #d93c37;
   text-align: center;
   color: white;
 }
@@ -882,7 +882,7 @@ h2 {
 }
 /* line 403, ../sass/screen.scss */
 #directions h2 {
-  color: #f94893;
+  color: #d93c37;
   margin-bottom: .25em;
 }
 /* line 408, ../sass/screen.scss */
@@ -902,7 +902,7 @@ h2 {
 /* line 421, ../sass/screen.scss */
 #registry h2 {
   margin: 0 0 .25em;
-  color: #2f3850;
+  color: #634137;
 }
 /* line 426, ../sass/screen.scss */
 #registry p {

@@ -17,7 +17,7 @@ jQuery(function( $ ){
 			var marker = new google.maps.Marker({
 				position: myLatlng,
 				map: map,
-				title: 'Hello World!'
+				title: 'Jim and Jamiefest'
 			});
 
 		}
@@ -50,7 +50,7 @@ jQuery(function( $ ){
 
 	var windowHeight = $(window).outerHeight();
 
-	if( $(window).width() > 768 )
+	if( $(window).width() > 768 && $(window).height() > 509 )
 		$("#announcement,#registry,#information").css('min-height',windowHeight);
 
 	// Cache selectors
